@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+.container-flex{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 50%;
+    width: 80%;
+    background-color: burlywood;
+    border: 2px solid rgb(160, 129, 89);
+    border-radius: 25px;
+    overflow-y: scroll  ;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    margin: 15px;
+    width: 40%;
+    background-color: rgb(158, 130, 93);
+    border: 2px solid rgb(99, 78, 51);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.article img{
+    width: 70%;
+}
+
+.article:hover{
+    background-color: rgb(85, 69, 49);
+    cursor:pointer;
+}
+.article::before{
+    content: "-----";
+}
+.article::after{
+    content: "-----";
+}

@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal{
+    background-color: #1E1E1E;
+    background-image: url("./assets/Presentation.png");
+    background-size: cover;
+}
+
+.productos{
+    background-color: #1E1E1E;
+}
+
+.header{
+    background-color: #323233;
+    color: #8E8E8E;
+    display: flex;
+    padding: 10px;
+}
+
+.brand-logo{
+    width: 75px;
+    margin-left: 15px;
+}
+
+.row{
+    display: flex;
+}
+
+.col-4{
+    width: 33%;
+}
+
+.end{
+    display: flex;
+    justify-content: end;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.vcenter{
+    display: flex;
+    align-items: center;
+}
+
+.navegador{
+    font-size: 25px;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: #8E8E8E;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+.navegador a:hover{
+    font-size: 35px;
+    color: rgb(180, 180, 180); 
+}
+
+
+#contenedor{
+    margin: 50px;
+    background-color: #323233 ;
+    border: 1px solid #8E8E8E ;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.article{
+    width: 70%;
+    height: 70%;
+    background-color: #8E8E8E;
+    border: 1px solid #323233 ;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    transition: all 1s;
+}
+
+.article img{
+    width: 60%;
+    height: 70%;
+}
+
+.article:hover{
+    width: 85%;
+    height: 85%;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

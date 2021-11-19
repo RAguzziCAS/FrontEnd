@@ -1,0 +1,55 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color:burlywood;
+    padding: 10px;
+}
+
+header img{
+    width: 75px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: width 1s,height 1s, background-color 3s;
+}
+
+.cajapequena{
+    background-color: green ;
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja .cajapequena{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+
+.caja:hover{
+    width: 600px ;
+    height: 600px ;
+    background-color: indigo;
+}
+
