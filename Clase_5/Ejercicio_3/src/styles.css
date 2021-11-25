@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+}
+
+.fill{
+    height: 100vh;
+}
+
+.box{
+    background-color: burlywood;
+    border: 2px solid rgb(160, 129, 89);
+    border-radius: 25px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-mini{
+    background-color: rgb(114, 85, 47);
+    border: 2px solid rgb(100, 70, 20);
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-12{
+    float: left;
+    width: 100%;
+}
+
+.col-8{
+    float: left;
+    width: 66.66%;
+}
+
+.col-6{
+    float: left;
+    width: 50%;
+}
+
+.col-4{
+    float: left;
+    width: 33.33%;
+}
+
+.col-2{
+    float: left;
+    width: 16.66%;
+}
+
+
+.d-none{
+    display: none;
+}

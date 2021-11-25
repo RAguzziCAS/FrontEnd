@@ -1,0 +1,40 @@
+body{
+    margin:0px
+}
+
+.fill{
+    height: 100vh;
+    width: 100vw;
+}
+
+.row{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+}
+
+.vcenter{
+    align-items: center;
+}
+
+.container{
+    padding: 25px;
+    width: 400px;
+    background-color: brown;
+}
+
+.container-header{
+    text-align: center;
+}
+
+.container-header h1{
+    color: black;
+}
+
+.container-body{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}

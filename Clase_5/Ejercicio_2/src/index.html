@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="fill row center vcenter">
+        <div class="row center">
+            <div class="container">
+                <div class="container-header">
+                    <h1>Formulario</h1>
+                </div>
+                <div class="container-body">
+
+                    <form onsubmit="MostrarDatos(this)">
+                        <label for="txtnombre">Nombre:</label>
+                        <input type="text" name="nombre" id="txtnombre" placeholder="Nombre..." required>
+                        <hr>
+                        <label for="txtapellido1">Primer Apellido:</label>
+                        <input type="text" name="apellido1" id="txtapellido1" placeholder="Primer Apellido..." required>
+                        <hr>
+                        <label for="txtapellido2">Segundo Apellido:</label>
+                        <input type="text" name="apellido2" id="txtapellido2" placeholder="Segundo Apellido..." required>
+                        <hr>
+                        <label for="txtedad">Edad:</label>
+                        <input type="number" name="edad" id="txtedad" placeholder="Edad..." required>
+                        <hr>
+                        <input type="submit" value="Ingresar" style="width: 100%; height: 25px; font-size: 15px;">
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="container-header">
+                    <h1>LOCAL STORAGE</h1>
+                </div>
+                <div class="container-body">
+
+                    <form>
+                        <label for="txtreadnombre">Nombre:</label>
+                        <input type="text" name="nombre" id="txtreadnombre" placeholder="Nombre..." readonly>
+                        <hr>
+                        <label for="txtreadapellido1">Primer Apellido:</label>
+                        <input type="text" name="apellido1" id="txtreadapellido1" placeholder="Primer Apellido..." readonly>
+                        <hr>
+                        <label for="txtreadapellido2">Segundo Apellido:</label>
+                        <input type="text" name="apellido2" id="txtreadapellido2" placeholder="Segundo Apellido..." readonly>
+                        <hr>
+                        <label for="txtreadedad">Edad:</label>
+                        <input type="number" name="edad" id="txtreadedad" placeholder="Edad..." readonly>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
