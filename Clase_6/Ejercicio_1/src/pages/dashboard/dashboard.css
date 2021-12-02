@@ -1,0 +1,15 @@
+.container {
+  padding: 15px;
+}
+
+.breadcrumb {
+  background-color: #252526;
+  border: 1px solid black;
+  border-radius: 45px;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
