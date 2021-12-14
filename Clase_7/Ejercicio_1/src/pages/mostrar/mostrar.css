@@ -1,0 +1,39 @@
+.Principal{
+    height: 100vh;
+    background-color: #E9EAE5;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Container{
+    height: 70%;
+    width: 70%;
+    padding: 35px;
+}
+
+#tbEstudiantes{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tbEstudiantes th{
+    text-align: left;
+    background-color: #22b680;
+    color: white;
+}
+
+#tbEstudiantes tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#tbEstudiantes tr:hover{
+    background-color: #ddd;
+}
+
+#tbEstudiantes th,
+#tbEstudiantes td{
+    border: 1px black solid;
+    padding: 8px;
+}

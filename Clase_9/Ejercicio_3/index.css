@@ -1,0 +1,15 @@
+.Principal{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar img{
+    height: 65px;
+}
+
+.brand{
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+}

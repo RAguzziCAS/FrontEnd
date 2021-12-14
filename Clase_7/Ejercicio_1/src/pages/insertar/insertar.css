@@ -1,0 +1,43 @@
+.Principal{
+    background-color: #E9EAE5;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 30%;
+    background-color: rgb(71, 234, 255);
+    border: 1px solid black;
+    border-radius: 45px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    text-align: end;
+    display: block;
+    margin-bottom: 25px;
+}
+.form-group input{
+    width: 70%;
+}
+.form-group label{
+    color: black;
+}
+
+.form-group input, .form-group label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn{
+    float: right;
+    width: 75%;
+}

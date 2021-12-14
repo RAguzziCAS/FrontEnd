@@ -1,0 +1,10 @@
+.principal{
+    height: 100vh;
+    padding: 25px;
+    background-color: transparent !important;
+}
+
+.table th{
+    text-align: center;
+    background-color: rgb(230, 205, 230);
+}
