@@ -1,0 +1,23 @@
+<div class="navbar navbar-lg navbar-light bg-light p-2 shadow">
+
+  <button class="btn btn-light">
+    <span class="material-icons">
+      menu
+    </span>
+  </button>
+
+</div>
+<div class="wrapper">
+  <div class="row">
+    <div class="sidebar col-2">
+      <a routerLink= "/biblioteca" class="btn">Biblioteca</a>
+      
+      <a routerLink="/documentos" class="btn">Documentos</a>
+      
+      <a routerLink="/personal" class="btn">Personal</a>
+    </div>
+    <div class="body col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

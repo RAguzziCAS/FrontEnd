@@ -1,0 +1,36 @@
+.principal{
+    height: 100vh;
+}
+
+.wrapper{
+    height: calc(100% - 56px);
+    overflow-x: hidden;
+}
+
+
+.modal-content{
+    border: 1px #1E1E1E solid;
+    border-radius: 15px;
+}
+
+.modal-header{
+    border: 1px solid #323233;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #323233;
+    color: #8E8E86;
+}
+
+.modal-body{
+    background-color: #252526;
+    border: none;
+    color: #8E8E86;
+}
+
+.modal-footer{
+    border: 1px solid #323233;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #323233;
+    color: #8E8E86;
+}
